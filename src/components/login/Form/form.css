@@ -1,0 +1,90 @@
+.login__form__root {
+  width: 90%;
+  max-width: 700px;
+
+  padding: 10px;
+
+  border-radius: 5px;
+  box-shadow: 1px 1px 12px lightgray;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.login__form__header {
+  display: flex;
+  align-items: center;
+
+  height: 5rem;
+}
+
+.login__form__icon {
+  font-size: 1.75rem;
+  margin-right: 10px;
+
+  color: #182b3f;
+}
+
+.login__form__header h1 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  margin: 0;
+
+  color: #182b3f;
+}
+
+.login__form__input {
+  padding: 10px;
+  border-radius: 5px;
+
+  height: 4.25rem;
+  border: none;
+  outline: none;
+
+  margin-bottom: 10px;
+
+  background-color: #f2f2f7;
+}
+
+.login__form__input p {
+  margin: 0 0 1px 0;
+  color: #8e8e93;
+  font-size: 1rem;
+}
+
+.login__form__input input {
+  background-color: #f2f2f7;
+  border: none;
+  outline: none;
+  width: 100%;
+
+  font-size: 1rem;
+}
+
+.login__form__submit {
+  height: 2.5rem;
+  width: 100%;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #182b3f;
+
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: white;
+
+  transition: ease-in 0.05s;
+}
+
+.login__form__submit:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+}
+
+.login__form__error__message {
+  color: red;
+  margin: 5px 0 1rem 0;
+}
